@@ -15,9 +15,9 @@ int main(int arg0, char *arg[]) {
     unsigned pid = fork();
     if (pid == 0) {
         sleep(5);
-        char *newargv[] = { NULL };
-        char *newenviron[] = { NULL };
-        newargv[0] = arg[1];
+        //char *newargv[] = { NULL };
+        //char *newenviron[] = { NULL };
+        //newargv[0] = arg[1];
         printf("Soy el proceso hijo\n");
         //execve(arg[1], &arg[1], newenviron);
         //perror("execve");
