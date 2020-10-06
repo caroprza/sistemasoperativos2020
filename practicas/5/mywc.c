@@ -21,7 +21,7 @@ int main() {
         caracteres++;
         anterior = c;
 
-        //write(STDOUT_FILENO, &c, 1);
+        
     }
     
     palabras++;
